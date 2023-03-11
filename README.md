@@ -5,8 +5,14 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
+<h3>Desktop</h3>
 <p align="center">
   <img alt="Page" src=".github/Screenshot.png" width="50%">
+</p>
+
+<h3>Mobile</h3>
+<p align="center">
+  <img alt="Page" src=".github/Screenshot-mobile.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
