@@ -5,14 +5,14 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<h3>Desktop</h3>
+<h5 align="center">Desktop</h5>
 <p align="center">
   <img alt="Page" src=".github/Screenshot.png" width="50%">
 </p>
 
-<h3>Mobile</h3>
+<h5 align="center">Mobile</h5>
 <p align="center">
-  <img alt="Page" src=".github/Screenshot-mobile.png" width="50%">
+  <img alt="Page" src=".github/Screenshot-mobile.png" width="35%">
 </p>
 
 ## 🚀 Tecnologias
