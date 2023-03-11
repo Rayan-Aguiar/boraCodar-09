@@ -23,8 +23,6 @@ body {
 }
 
 main {
-  width: 80rem;
-  height: 69.2rem;
   padding: 6.4rem 8rem;
   background: #fff;
   box-shadow: .0rem 0.4rem 3.2rem rgba(15, 23, 42, 0.15);
@@ -43,7 +41,10 @@ section h2{
   margin-top: 1.6rem;
   display: flex;
   gap: 1.6rem;
+  align-items: center;
 }
+
+/* Money Wrapper */
 
 .money-wrapper{
   background-color: white;
@@ -88,6 +89,13 @@ section h2{
   top: 0;
   right: 0;
   
+  height: 5.6rem;
+  overflow: hidden;
+}
+
+.dropdown:hover{
+  height: fit-content;
+  overflow: initial;
 }
 
 .selected{
@@ -103,17 +111,20 @@ section h2{
 
 .selected::before{
   content: "";
-  width: 2.4rem;
-  height: .1rem;
+  height: 2.4rem;
+  width: 0.1rem;
   background-color: #94a3b8;
+  position: absolute;
+  left: 0;
 }
 .selected::after{
   content: "";
   width: 2.4rem;
   height: 2.4rem;
+  background: url(./assets/chevron-down.svg) no-repeat;
 }
 
-.selected:hover{
+li:hover,.selected:hover{
   background-color: var(--bg-hover);
 }
 
@@ -122,9 +133,38 @@ section h2{
   border-radius: 50%;
 }
 
+/* UL */
+
+ul {
+  list-style: none;
+
+  background-color: white;
+  box-shadow: 0px 4px 16px rgba(15, 23, 42, 0.15);
+  border-radius: 8px;
+
+  padding: 0;
+
+  width:16rem;
+  max-height: 17rem;
+
+  margin-top: .8rem;
+
+  overflow-y: scroll;
+}
+
+li {
+  padding: 1.2rem 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
+  cursor: pointer;
+}
+
+/* Cambio */
+
 .cambio .wrapper {
   margin-top: 2.4rem;
-  width: 59.2rem;
-  height: 35.6rem;
-  border: 1px solid red;
+  
 }
